@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "prod": "node build/dev-server.js",
+    "prod": "node config/index.js",
     "start": "npm run prod",
     "build": "node build/build.js"
   },
